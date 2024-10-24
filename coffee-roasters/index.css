@@ -1,26 +1,34 @@
+body{
+    font-family: "Barlow";
+}
+p{
+    font-size: 16px;   
+    color: #c9c9c9;
+}
+a{
+text-decoration: none;
+color: white;
+}
+.flex{
+    display:flex
+}
 .container{
-    width: 1100px;
+    width: 1280px;
     margin: auto;
 }
-/*-----------------------------------------------*/
-
 header{
-display: flex;
 justify-content: space-between;
 }
 header >nav>a{
-    font-family:"Barlow","sans-serif";
     text-decoration: none;
     margin-right:5px ;
     color: gray;
 }
-/*-----------------------------------------------*/
 .hero{
-
     height: 500px;
     background-image: url("./assets/home/desktop/image-hero-coffeepress.jpg");
     background-repeat: no-repeat;
-    background-size: 1100px 500px;
+    background-size: 1280px 500px;
     position:relative;  
 }
 .hero>div:first-child{
@@ -40,9 +48,6 @@ gap:20px;
 
 .hero>div>p{
     width: 400px;
-    color: #c9c9c9;
-    font-size: 16px;   
-    font-family: "Barlow";
 }
 
 /*-----------------------------------------------*/
@@ -52,38 +57,63 @@ padding: 2%;
 width: 120px;
 border-radius: 10px;
 }
-.button>a{
-text-decoration: none;
-color: white;
-font-weight: 800;
-}
 /*-----------------------------------------------*/
 .collection{
-
-display: flex;
+flex-direction: row;
+text-align: center;
 width: 1111px;
 height: 539px;
+gap:30px;
+margin: auto;
+margin-top: 85px;
 }
-
 .collection>div{
-
-
-    
+align-items: center;
 }
 .collection>div>img{
-
-
-
-    
+height: 193px;
 }
-.collection>div>h1{
+.why{
+background-image: url(./assets/plan/desktop/bg-steps.png);
+background-repeat: no-repeat;
+background-size: 2180px 500px;
 
-
-    
+flex-direction: column;
+align-items:center;
 }
-.collection>div>p{
+.why >h1{
+font-size:50px;
+color: white;
+}
+.why>p{
+text-align: center;
+color: gray;
+width:600px;
+}
+.reasons{
+    flex-direction: row;
+    margin-right:45px ;
+    text-align: center;
+}
+.reasons>div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: #0e8684;
+    padding: 4%;
+    margin-left: 60px;
+    border-radius: 12px;
+}
+.reasons>div>img{
+    padding-top:50px;
+    width: 72px;
+    height: 72px;
+}
+.reasons>div>h1{
+    color: white
 
 
-    
+
 }
 
