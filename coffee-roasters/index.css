@@ -1,0 +1,89 @@
+.container{
+    width: 1100px;
+    margin: auto;
+}
+/*-----------------------------------------------*/
+
+header{
+display: flex;
+justify-content: space-between;
+}
+header >nav>a{
+    font-family:"Barlow","sans-serif";
+    text-decoration: none;
+    margin-right:5px ;
+    color: gray;
+}
+/*-----------------------------------------------*/
+.hero{
+
+    height: 500px;
+    background-image: url("./assets/home/desktop/image-hero-coffeepress.jpg");
+    background-repeat: no-repeat;
+    background-size: 1100px 500px;
+    position:relative;  
+}
+.hero>div:first-child{
+margin-left: 50px;
+display: flex;
+flex-direction: column;
+gap:20px;
+}
+.hero>div>h1{
+    height: 2px;
+    font-weight: 800;
+    font-size: 50px;
+    color: white;
+    width: 300px;
+    margin-bottom: 100px;
+}
+
+.hero>div>p{
+    width: 400px;
+    color: #c9c9c9;
+    font-size: 16px;   
+    font-family: "Barlow";
+}
+
+/*-----------------------------------------------*/
+.button{
+background-color: #13ccc9;
+padding: 2%;
+width: 120px;
+border-radius: 10px;
+}
+.button>a{
+text-decoration: none;
+color: white;
+font-weight: 800;
+}
+/*-----------------------------------------------*/
+.collection{
+
+display: flex;
+width: 1111px;
+height: 539px;
+}
+
+.collection>div{
+
+
+    
+}
+.collection>div>img{
+
+
+
+    
+}
+.collection>div>h1{
+
+
+    
+}
+.collection>div>p{
+
+
+    
+}
+
